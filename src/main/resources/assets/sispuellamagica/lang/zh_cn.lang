@@ -1,0 +1,8 @@
+item.sispuellamagica.dirtBall.name=泥土球
+item.sispuellamagica.magicapple.name=膜法苹果
+item.sispuellamagica.maple_leaf.name=枫叶
+item.sispuellamagica.maplePickaxe.name=枫叶镐
+tile.sispuellamagica.compressedDirt.name=压缩泥土
+itemGroup.sispuellamagica=魔法少女
+entity.sispuellamagica.kyube=QB
+message.welcome=欢迎成为魔法少女

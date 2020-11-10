@@ -1,0 +1,16 @@
+[
+{
+  "modid": "sispuellamagica",
+  "name": "Sis Puella Magica",
+  "description": "A mod that provide player chance to become a Magical Girl",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "https://space.bilibili.com/25863328",
+  "updateUrl": "",
+  "authorList": ["Puella_Magi_Nico/Yuudachi_Kai2"],
+  "credits": "",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
