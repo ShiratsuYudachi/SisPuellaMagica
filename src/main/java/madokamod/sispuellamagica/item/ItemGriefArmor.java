@@ -12,4 +12,5 @@ public class ItemGriefArmor extends ItemArmor{
          this.setRegistryName("grief_armor_"+equipmentSlot.getName());
          this.setCreativeTab(TabSisPuellaMagica.TAB_SPM);
     }
+
 }
