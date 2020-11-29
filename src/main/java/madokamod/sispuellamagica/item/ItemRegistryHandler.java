@@ -69,5 +69,9 @@ public class ItemRegistryHandler {
         registerModel(ITEM_MAPLE_LEAF);
         registerModel(GRIEF_PICKAXE);
         registerModel(ITEM_GRIEF_SEED);
+        registerModel(GRIEF_BOOTS);
+        registerModel(GRIEF_CHESTPLATE);
+        registerModel(GRIEF_HELMET);
+        registerModel(GRIEF_LEGGINGS);
     }
 }
