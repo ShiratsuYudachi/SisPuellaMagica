@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern" : [
+    "XXX",
+    " # ",
+    " # "
+  ],
+  "key": {
+    "X":{
+      "item": "sispuellamagica:grief_seed"
+    },
+    "#":{
+      "item": "minecraft:stick"
+    }
+  },
+  "result":{
+    "item": "sispuellamagica:grief_pickaxe"
+  }
+}
