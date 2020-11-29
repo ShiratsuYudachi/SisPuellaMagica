@@ -3,6 +3,7 @@ package madokamod.sispuellamagica.item;
 import madokamod.sispuellamagica.SisPuellaMagica;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.init.SoundEvents;
+import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemArmor;
 import net.minecraft.item.ItemBlock;
@@ -30,6 +31,11 @@ public class ItemRegistryHandler {
     public static final ItemGriefSeed ITEM_GRIEF_SEED = new ItemGriefSeed();
     public static final ItemGriefPickaxe GRIEF_PICKAXE = new ItemGriefPickaxe();
 
+    public static final ItemGriefArmor GRIEF_BOOTS = new ItemGriefArmor(EntityEquipmentSlot.FEET);
+    public static final ItemGriefArmor GRIEF_LEGGINGS = new ItemGriefArmor(EntityEquipmentSlot.LEGS);
+    public static final ItemGriefArmor GRIEF_CHESTPLATE = new ItemGriefArmor(EntityEquipmentSlot.CHEST);
+    public static final ItemGriefArmor GRIEF_HELMET = new ItemGriefArmor(EntityEquipmentSlot.HEAD);
+
     private static ItemBlock withRegistryName(ItemBlock item){
         item.setRegistryName(item.getBlock().getRegistryName());
         return item;
@@ -43,6 +49,10 @@ public class ItemRegistryHandler {
         registry.register(ITEM_MAPLE_LEAF);
         registry.register(ITEM_GRIEF_SEED);
         registry.register(GRIEF_PICKAXE);
+        registry.register(GRIEF_BOOTS);
+        registry.register(GRIEF_LEGGINGS);
+        registry.register(GRIEF_CHESTPLATE);
+        registry.register(GRIEF_HELMET);
     }
     @SideOnly(Side.CLIENT)
     private static void registerModel(Item item){
