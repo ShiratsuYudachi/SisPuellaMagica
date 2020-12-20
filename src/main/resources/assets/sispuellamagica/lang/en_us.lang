@@ -7,6 +7,10 @@ item.sispuellamagica.griefArmor.feet.name=Boots of Grief
 
 enchantment.sispuellamagica.explosion=Explosion
 
+
+
 tile.sispuellamagica.compressedDirt.name=Compressed Dirt
 itemGroup.sispuellamagica=Sis Puella Magica
+
 entity.sispuellamagica.kyube=Kyubey
+entity.Villager.sispuellamagica.
