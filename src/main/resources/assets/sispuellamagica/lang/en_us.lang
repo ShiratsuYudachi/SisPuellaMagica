@@ -5,6 +5,8 @@ item.sispuellamagica.griefPickaxe.name=Pickaxe of Grief
 item.sispuellamagica.griefSeed.name=Grief Seed
 item.sispuellamagica.griefArmor.feet.name=Boots of Grief
 
+effect.sispuellamagica.dirtProtection=Dirt Protection
+
 enchantment.sispuellamagica.explosion=Explosion
 
 
