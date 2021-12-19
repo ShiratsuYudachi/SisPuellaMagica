@@ -30,6 +30,7 @@ public class ItemRegistryHandler {
     public static final ItemMapleLeaf ITEM_MAPLE_LEAF = new ItemMapleLeaf();
     public static final ItemGriefSeed ITEM_GRIEF_SEED = new ItemGriefSeed();
     public static final ItemGriefPickaxe GRIEF_PICKAXE = new ItemGriefPickaxe();
+    public static final ItemAdvancedFireball ITEM_ADVANCED_FIREBALL = new ItemAdvancedFireball();
 
     public static final ItemGriefArmor GRIEF_BOOTS = new ItemGriefArmor(EntityEquipmentSlot.FEET);
     public static final ItemGriefArmor GRIEF_LEGGINGS = new ItemGriefArmor(EntityEquipmentSlot.LEGS);
@@ -53,6 +54,7 @@ public class ItemRegistryHandler {
         registry.register(GRIEF_LEGGINGS);
         registry.register(GRIEF_CHESTPLATE);
         registry.register(GRIEF_HELMET);
+        registry.register(ITEM_ADVANCED_FIREBALL);
     }
     @SideOnly(Side.CLIENT)
     private static void registerModel(Item item){
@@ -62,6 +64,7 @@ public class ItemRegistryHandler {
 
     @SubscribeEvent
     @SideOnly(Side.CLIENT)
+    //should I change the following "mode" to model?
     public static void onModeRegistry(ModelRegistryEvent event){
         registerModel(DIRT_BALL);
         registerModel(magicapple);
@@ -73,5 +76,6 @@ public class ItemRegistryHandler {
         registerModel(GRIEF_CHESTPLATE);
         registerModel(GRIEF_HELMET);
         registerModel(GRIEF_LEGGINGS);
+        registerModel(ITEM_ADVANCED_FIREBALL);
     }
 }

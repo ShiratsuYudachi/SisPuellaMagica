@@ -12,10 +12,12 @@ public class EntityRegistryHandler {
     public static final EntityEntry KYUBE =
             EntityEntryBuilder.create().entity(EntityKyube.class)
                     .id(EntityKyube.ID, 0).name(EntityKyube.NAME).tracker(80, 3, true).build();
+    public static final EntityEntry ADVANCED_FIREBALL = EntityEntryBuilder.create().entity(EntityAdvancedFireball.class).id(EntityAdvancedFireball.ID, 1).name(EntityAdvancedFireball.NAME).tracker(64, 10, true).build();
 
     @SubscribeEvent
     public static void onRegistry(RegistryEvent.Register<EntityEntry> event){
         IForgeRegistry<EntityEntry> registry = event.getRegistry();
         registry.register(KYUBE);
+        registry.register(ADVANCED_FIREBALL);
     }
 }
